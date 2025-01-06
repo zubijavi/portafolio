@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javier Zubillaga Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <header>
+    <h1><span></span></h1>
+    <div class="menu-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  <nav class="menu">
+    <ul>
+      <li><a href="#about-me">Sobre mí</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#courses">Cursos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Presentación -->
+  <section id="about-me" class="about-me">
+    <h2>Hola Mundo !</h2>
+    <div class="about-me-content">
+      <p><strong>Soy Javier Zubillaga</strong>, desarrollador Full Stack (trainee) con conocimientos en tecnologías como React.js, Node.js, Firebase, y MongoDB. Me apasiona crear aplicaciones web dinámicas, funcionales y visualmente atractivas, priorizando la experiencia del usuario y las buenas prácticas de desarrollo.</p>
+      <p>Cuento con conocimientos en integración de APIs, control de versiones con Git y GitHub, y organización de proyectos mediante metodologías ágiles como Scrum y Kanban. Mi objetivo seguir sumando experiencia e inserartarme laboralmente en el mundo IT.</p>
+      <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, Firebase, Git, Vercel.</p>
+    </div>
+  </section>
+  
+
+  <section id="projects" class="projects">
+    <h2>Proyectos</h2>
+    <div class="project-grid">
+        <div class="project-card">
+            <a href="https://tdl-front-nine.vercel.app/" target="_blank">
+              <img src="./assets/ToDo.png" alt="Vista previa Proyecto 1">
+            </a>
+            <h3>Proyecto 1</h3>
+            <p>Descripción breve del proyecto.</p>
+          </div>
+          <div class="project-card">
+            <a href="https://pelotaris.vercel.app/" target="_blank">
+              <img src="./assets/Pelotaris.png" alt="Vista previa Proyecto 1">
+            </a>
+            <h3>Proyecto 1</h3>
+            <p>Descripción breve del proyecto.</p>
+          </div>
+
+  </section>
+
+  <!-- Cursos Realizados -->
+  <section id="courses" class="courses">
+    <h2>Cursos Realizados</h2>
+    <div class="course-grid">
+      <div class="course-card">
+        <img src="./assets/FSI.png" alt="Full Stack">
+        <h3>Full Stack - UTN</h3>
+      </div>
+      <div class="course-card">
+        <img src="./assets/FSA.png" alt="Full Stack Avanzado">
+        <h3>Full Stack Avanzado - UTN</h3>
+      </div>
+      <div class="course-card">
+        <img src="./assets/Tester.png" alt="Tester de Accesibilidad Web">
+        <h3>Tester de Accesibilidad Web - UTN</h3>
+      </div>
+      <div class="course-card">
+        <img src="./assets/Bootcamp Santander.png" alt="Bootcamp MinHub - Santander Tecnologia">
+        <h3>Bootcamp MinHub - Santander Tecnologia</h3>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer id="contact" class="contact">
+    <h2>Contacto</h2>
+    <ul class="contact-info">
+      <li><strong>Correo Electrónico:</strong> <a href="mailto:zubijavi@hotmail.com">zubijavi@hotmail.com</a></li>
+      <li><strong>Teléfono:</strong> <a href="tel:+543413354935">+54 341 3354935</a></li>
+    </ul>
+  </footer>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
